@@ -64,6 +64,12 @@ public interface InterfacePokedex {
      */
     ArrayList<Pokemon> pesquisarPokemonPeloTipo(TipoPokemon tipo);
 
-
+    /**
+     * Cadastra um novo tipo para um pokemon que é identificado pelo certo nome
+     * @param nome nome do pokemón
+     * @param tipo tipo que será inserido no pokemón
+     * @throws PokemonNaoExisteException Se não existir nenhum pokemón 
+     * que se identifica pelo certo nome
+     */
     void cadastrarTipoNoPokemon(String nome, TipoPokemon tipo) throws PokemonNaoExisteException;
 }
