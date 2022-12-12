@@ -25,4 +25,4 @@
 
 ## <p> A imagem abaixo mostra os desenvolvedores que participaram da construção deste maravilhoso projeto. </p> ##
 
-![Desenvolvedores](pokedexfinal\src\resources\imgs\Desenvolvedores.png )
+![Desenvolvedores](pokedexfinal\src\resources\imgs\Desenvolvedores.png "Desenvolvedores")
